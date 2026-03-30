@@ -4528,11 +4528,6 @@
                     },
                     {
                       "type": "boolean",
-                      "name": "has_commit_comments",
-                      "description": ""
-                    },
-                    {
-                      "type": "boolean",
                       "name": "archived",
                       "description": ""
                     },
@@ -6562,11 +6557,6 @@
                         "all",
                         "collaborators_only"
                       ]
-                    },
-                    {
-                      "type": "boolean",
-                      "name": "has_commit_comments",
-                      "description": ""
                     },
                     {
                       "type": "boolean",
@@ -8600,11 +8590,6 @@
                         "all",
                         "collaborators_only"
                       ]
-                    },
-                    {
-                      "type": "boolean",
-                      "name": "has_commit_comments",
-                      "description": ""
                     },
                     {
                       "type": "boolean",
@@ -10649,11 +10634,6 @@
                         "all",
                         "collaborators_only"
                       ]
-                    },
-                    {
-                      "type": "boolean",
-                      "name": "has_commit_comments",
-                      "description": ""
                     },
                     {
                       "type": "boolean",
@@ -18312,7 +18292,7 @@
               "isRequired": true
             },
             {
-              "type": "object",
+              "type": "object or null",
               "name": "dismissed_by",
               "description": "<p>A GitHub user.</p>",
               "isRequired": true,
@@ -19004,7 +18984,7 @@
               "isRequired": true
             },
             {
-              "type": "object",
+              "type": "object or null",
               "name": "dismissed_by",
               "description": "<p>A GitHub user.</p>",
               "isRequired": true,
@@ -19696,7 +19676,7 @@
               "isRequired": true
             },
             {
-              "type": "object",
+              "type": "object or null",
               "name": "dismissed_by",
               "description": "<p>A GitHub user.</p>",
               "isRequired": true,
@@ -20388,7 +20368,7 @@
               "isRequired": true
             },
             {
-              "type": "object",
+              "type": "object or null",
               "name": "dismissed_by",
               "description": "<p>A GitHub user.</p>",
               "isRequired": true,
@@ -21080,7 +21060,7 @@
               "isRequired": true
             },
             {
-              "type": "object",
+              "type": "object or null",
               "name": "dismissed_by",
               "description": "<p>A GitHub user.</p>",
               "isRequired": true,
@@ -21772,7 +21752,7 @@
               "isRequired": true
             },
             {
-              "type": "object",
+              "type": "object or null",
               "name": "dismissed_by",
               "description": "<p>A GitHub user.</p>",
               "isRequired": true,
@@ -22464,7 +22444,7 @@
               "isRequired": true
             },
             {
-              "type": "object",
+              "type": "object or null",
               "name": "dismissed_by",
               "description": "<p>A GitHub user.</p>",
               "isRequired": true,
@@ -25101,7 +25081,7 @@
           "description": "<p>The URL to review the deployment protection rule.</p>"
         },
         {
-          "type": "object",
+          "type": "object or null",
           "name": "deployment",
           "description": "<p>A request for a specific ref(branch,sha,tag) to be deployed</p>",
           "childParamsGroups": [
@@ -25165,7 +25145,7 @@
               "isRequired": true
             },
             {
-              "type": "object",
+              "type": "object or null",
               "name": "creator",
               "description": "<p>A GitHub user.</p>",
               "isRequired": true,
@@ -25639,7 +25619,7 @@
               ]
             },
             {
-              "type": "object",
+              "type": "object or null",
               "name": "milestone",
               "description": "<p>A collection of related issues and pull requests.</p>",
               "isRequired": true,
@@ -25704,7 +25684,7 @@
                   "isRequired": true
                 },
                 {
-                  "type": "object",
+                  "type": "object or null",
                   "name": "creator",
                   "description": "<p>A GitHub user.</p>",
                   "isRequired": true,
@@ -25913,7 +25893,7 @@
               "isRequired": true
             },
             {
-              "type": "object",
+              "type": "object or null",
               "name": "assignee",
               "description": "<p>A GitHub user.</p>",
               "isRequired": true,
@@ -26469,7 +26449,7 @@
                       "isRequired": true
                     },
                     {
-                      "type": "object",
+                      "type": "object or null",
                       "name": "license",
                       "description": "<p>License Simple</p>",
                       "isRequired": true,
@@ -27078,12 +27058,6 @@
                         "all",
                         "collaborators_only"
                       ]
-                    },
-                    {
-                      "type": "boolean",
-                      "name": "has_commit_comments",
-                      "description": "<p>Whether commit comments are enabled.</p>",
-                      "default": true
                     },
                     {
                       "type": "boolean",
@@ -27457,7 +27431,7 @@
                       "isRequired": true
                     },
                     {
-                      "type": "object",
+                      "type": "object or null",
                       "name": "license",
                       "description": "<p>License Simple</p>",
                       "isRequired": true,
@@ -28066,12 +28040,6 @@
                         "all",
                         "collaborators_only"
                       ]
-                    },
-                    {
-                      "type": "boolean",
-                      "name": "has_commit_comments",
-                      "description": "<p>Whether commit comments are enabled.</p>",
-                      "default": true
                     },
                     {
                       "type": "boolean",
@@ -28728,7 +28696,7 @@
               "isRequired": true
             },
             {
-              "type": "object",
+              "type": "object or null",
               "name": "merged_by",
               "description": "<p>A GitHub user.</p>",
               "isRequired": true,
@@ -44117,7 +44085,7 @@
                   "isRequired": true
                 },
                 {
-                  "type": "object",
+                  "type": "object or null",
                   "name": "license",
                   "description": "<p>License Simple</p>",
                   "isRequired": true,
@@ -44160,7 +44128,7 @@
                   ]
                 },
                 {
-                  "type": "object",
+                  "type": "object or null",
                   "name": "organization",
                   "description": "<p>A GitHub user.</p>",
                   "childParamsGroups": [
@@ -44866,12 +44834,6 @@
                     "all",
                     "collaborators_only"
                   ]
-                },
-                {
-                  "type": "boolean",
-                  "name": "has_commit_comments",
-                  "description": "<p>Whether commit comments are enabled.</p>",
-                  "default": true
                 },
                 {
                   "type": "boolean",
@@ -59567,7 +59529,7 @@
               "isRequired": true
             },
             {
-              "type": "object",
+              "type": "object or null",
               "name": "pinned_comment",
               "description": "<p>Comments provide a way for people to collaborate on an issue.</p>",
               "childParamsGroups": [
@@ -59611,7 +59573,7 @@
                   "isRequired": true
                 },
                 {
-                  "type": "object",
+                  "type": "object or null",
                   "name": "user",
                   "description": "<p>A GitHub user.</p>",
                   "isRequired": true,
@@ -59852,7 +59814,7 @@
                   ]
                 },
                 {
-                  "type": "object",
+                  "type": "object or null",
                   "name": "pin",
                   "description": "<p>Context around who pinned an issue comment and when it was pinned.</p>",
                   "childParamsGroups": [
@@ -59863,7 +59825,7 @@
                       "isRequired": true
                     },
                     {
-                      "type": "object",
+                      "type": "object or null",
                       "name": "pinned_by",
                       "description": "<p>A GitHub user.</p>",
                       "isRequired": true,
@@ -60869,7 +60831,7 @@
               "isRequired": true
             },
             {
-              "type": "object",
+              "type": "object or null",
               "name": "pinned_comment",
               "description": "<p>Comments provide a way for people to collaborate on an issue.</p>",
               "childParamsGroups": [
@@ -60913,7 +60875,7 @@
                   "isRequired": true
                 },
                 {
-                  "type": "object",
+                  "type": "object or null",
                   "name": "user",
                   "description": "<p>A GitHub user.</p>",
                   "isRequired": true,
@@ -61154,7 +61116,7 @@
                   ]
                 },
                 {
-                  "type": "object",
+                  "type": "object or null",
                   "name": "pin",
                   "description": "<p>Context around who pinned an issue comment and when it was pinned.</p>",
                   "childParamsGroups": [
@@ -61165,7 +61127,7 @@
                       "isRequired": true
                     },
                     {
-                      "type": "object",
+                      "type": "object or null",
                       "name": "pinned_by",
                       "description": "<p>A GitHub user.</p>",
                       "isRequired": true,
@@ -62832,7 +62794,7 @@
               "isRequired": true
             },
             {
-              "type": "object",
+              "type": "object or null",
               "name": "pinned_comment",
               "description": "<p>Comments provide a way for people to collaborate on an issue.</p>",
               "childParamsGroups": [
@@ -62876,7 +62838,7 @@
                   "isRequired": true
                 },
                 {
-                  "type": "object",
+                  "type": "object or null",
                   "name": "user",
                   "description": "<p>A GitHub user.</p>",
                   "isRequired": true,
@@ -63117,7 +63079,7 @@
                   ]
                 },
                 {
-                  "type": "object",
+                  "type": "object or null",
                   "name": "pin",
                   "description": "<p>Context around who pinned an issue comment and when it was pinned.</p>",
                   "childParamsGroups": [
@@ -63128,7 +63090,7 @@
                       "isRequired": true
                     },
                     {
-                      "type": "object",
+                      "type": "object or null",
                       "name": "pinned_by",
                       "description": "<p>A GitHub user.</p>",
                       "isRequired": true,
@@ -64747,7 +64709,7 @@
               "isRequired": true
             },
             {
-              "type": "object",
+              "type": "object or null",
               "name": "pinned_comment",
               "description": "<p>Comments provide a way for people to collaborate on an issue.</p>",
               "childParamsGroups": [
@@ -64791,7 +64753,7 @@
                   "isRequired": true
                 },
                 {
-                  "type": "object",
+                  "type": "object or null",
                   "name": "user",
                   "description": "<p>A GitHub user.</p>",
                   "isRequired": true,
@@ -65032,7 +64994,7 @@
                   ]
                 },
                 {
-                  "type": "object",
+                  "type": "object or null",
                   "name": "pin",
                   "description": "<p>Context around who pinned an issue comment and when it was pinned.</p>",
                   "childParamsGroups": [
@@ -65043,7 +65005,7 @@
                       "isRequired": true
                     },
                     {
-                      "type": "object",
+                      "type": "object or null",
                       "name": "pinned_by",
                       "description": "<p>A GitHub user.</p>",
                       "isRequired": true,
@@ -66973,7 +66935,7 @@
               "isRequired": true
             },
             {
-              "type": "object",
+              "type": "object or null",
               "name": "pinned_comment",
               "description": "<p>Comments provide a way for people to collaborate on an issue.</p>",
               "childParamsGroups": [
@@ -67017,7 +66979,7 @@
                   "isRequired": true
                 },
                 {
-                  "type": "object",
+                  "type": "object or null",
                   "name": "user",
                   "description": "<p>A GitHub user.</p>",
                   "isRequired": true,
@@ -67258,7 +67220,7 @@
                   ]
                 },
                 {
-                  "type": "object",
+                  "type": "object or null",
                   "name": "pin",
                   "description": "<p>Context around who pinned an issue comment and when it was pinned.</p>",
                   "childParamsGroups": [
@@ -67269,7 +67231,7 @@
                       "isRequired": true
                     },
                     {
-                      "type": "object",
+                      "type": "object or null",
                       "name": "pinned_by",
                       "description": "<p>A GitHub user.</p>",
                       "isRequired": true,
@@ -68987,7 +68949,7 @@
               "isRequired": true
             },
             {
-              "type": "object",
+              "type": "object or null",
               "name": "pinned_comment",
               "description": "<p>Comments provide a way for people to collaborate on an issue.</p>",
               "childParamsGroups": [
@@ -69031,7 +68993,7 @@
                   "isRequired": true
                 },
                 {
-                  "type": "object",
+                  "type": "object or null",
                   "name": "user",
                   "description": "<p>A GitHub user.</p>",
                   "isRequired": true,
@@ -69272,7 +69234,7 @@
                   ]
                 },
                 {
-                  "type": "object",
+                  "type": "object or null",
                   "name": "pin",
                   "description": "<p>Context around who pinned an issue comment and when it was pinned.</p>",
                   "childParamsGroups": [
@@ -69283,7 +69245,7 @@
                       "isRequired": true
                     },
                     {
-                      "type": "object",
+                      "type": "object or null",
                       "name": "pinned_by",
                       "description": "<p>A GitHub user.</p>",
                       "isRequired": true,
@@ -70958,7 +70920,7 @@
               "isRequired": true
             },
             {
-              "type": "object",
+              "type": "object or null",
               "name": "pinned_comment",
               "description": "<p>Comments provide a way for people to collaborate on an issue.</p>",
               "childParamsGroups": [
@@ -71002,7 +70964,7 @@
                   "isRequired": true
                 },
                 {
-                  "type": "object",
+                  "type": "object or null",
                   "name": "user",
                   "description": "<p>A GitHub user.</p>",
                   "isRequired": true,
@@ -71243,7 +71205,7 @@
                   ]
                 },
                 {
-                  "type": "object",
+                  "type": "object or null",
                   "name": "pin",
                   "description": "<p>Context around who pinned an issue comment and when it was pinned.</p>",
                   "childParamsGroups": [
@@ -71254,7 +71216,7 @@
                       "isRequired": true
                     },
                     {
-                      "type": "object",
+                      "type": "object or null",
                       "name": "pinned_by",
                       "description": "<p>A GitHub user.</p>",
                       "isRequired": true,
@@ -72872,7 +72834,7 @@
               "isRequired": true
             },
             {
-              "type": "object",
+              "type": "object or null",
               "name": "pinned_comment",
               "description": "<p>Comments provide a way for people to collaborate on an issue.</p>",
               "childParamsGroups": [
@@ -72916,7 +72878,7 @@
                   "isRequired": true
                 },
                 {
-                  "type": "object",
+                  "type": "object or null",
                   "name": "user",
                   "description": "<p>A GitHub user.</p>",
                   "isRequired": true,
@@ -73157,7 +73119,7 @@
                   ]
                 },
                 {
-                  "type": "object",
+                  "type": "object or null",
                   "name": "pin",
                   "description": "<p>Context around who pinned an issue comment and when it was pinned.</p>",
                   "childParamsGroups": [
@@ -73168,7 +73130,7 @@
                       "isRequired": true
                     },
                     {
-                      "type": "object",
+                      "type": "object or null",
                       "name": "pinned_by",
                       "description": "<p>A GitHub user.</p>",
                       "isRequired": true,
@@ -75191,7 +75153,7 @@
                   "description": "<p>URL for the issue</p>"
                 },
                 {
-                  "type": "object",
+                  "type": "object or null",
                   "name": "pinned_comment",
                   "description": "<p>Comments provide a way for people to collaborate on an issue.</p>",
                   "childParamsGroups": [
@@ -75235,7 +75197,7 @@
                       "isRequired": true
                     },
                     {
-                      "type": "object",
+                      "type": "object or null",
                       "name": "user",
                       "description": "<p>A GitHub user.</p>",
                       "isRequired": true,
@@ -75476,7 +75438,7 @@
                       ]
                     },
                     {
-                      "type": "object",
+                      "type": "object or null",
                       "name": "pin",
                       "description": "<p>Context around who pinned an issue comment and when it was pinned.</p>",
                       "childParamsGroups": [
@@ -75487,7 +75449,7 @@
                           "isRequired": true
                         },
                         {
-                          "type": "object",
+                          "type": "object or null",
                           "name": "pinned_by",
                           "description": "<p>A GitHub user.</p>",
                           "isRequired": true,
@@ -76052,12 +76014,6 @@
                     "all",
                     "collaborators_only"
                   ]
-                },
-                {
-                  "type": "boolean",
-                  "name": "has_commit_comments",
-                  "description": "<p>Whether commit comments are enabled.</p>",
-                  "default": true
                 },
                 {
                   "type": "boolean",
@@ -77933,7 +77889,7 @@
               "isRequired": true
             },
             {
-              "type": "object",
+              "type": "object or null",
               "name": "pinned_comment",
               "description": "<p>Comments provide a way for people to collaborate on an issue.</p>",
               "childParamsGroups": [
@@ -77977,7 +77933,7 @@
                   "isRequired": true
                 },
                 {
-                  "type": "object",
+                  "type": "object or null",
                   "name": "user",
                   "description": "<p>A GitHub user.</p>",
                   "isRequired": true,
@@ -78218,7 +78174,7 @@
                   ]
                 },
                 {
-                  "type": "object",
+                  "type": "object or null",
                   "name": "pin",
                   "description": "<p>Context around who pinned an issue comment and when it was pinned.</p>",
                   "childParamsGroups": [
@@ -78229,7 +78185,7 @@
                       "isRequired": true
                     },
                     {
-                      "type": "object",
+                      "type": "object or null",
                       "name": "pinned_by",
                       "description": "<p>A GitHub user.</p>",
                       "isRequired": true,
@@ -79677,7 +79633,7 @@
               "isRequired": true
             },
             {
-              "type": "object",
+              "type": "object or null",
               "name": "pinned_comment",
               "description": "<p>Comments provide a way for people to collaborate on an issue.</p>",
               "childParamsGroups": [
@@ -79721,7 +79677,7 @@
                   "isRequired": true
                 },
                 {
-                  "type": "object",
+                  "type": "object or null",
                   "name": "user",
                   "description": "<p>A GitHub user.</p>",
                   "isRequired": true,
@@ -79962,7 +79918,7 @@
                   ]
                 },
                 {
-                  "type": "object",
+                  "type": "object or null",
                   "name": "pin",
                   "description": "<p>Context around who pinned an issue comment and when it was pinned.</p>",
                   "childParamsGroups": [
@@ -79973,7 +79929,7 @@
                       "isRequired": true
                     },
                     {
-                      "type": "object",
+                      "type": "object or null",
                       "name": "pinned_by",
                       "description": "<p>A GitHub user.</p>",
                       "isRequired": true,
@@ -81592,7 +81548,7 @@
               "isRequired": true
             },
             {
-              "type": "object",
+              "type": "object or null",
               "name": "pinned_comment",
               "description": "<p>Comments provide a way for people to collaborate on an issue.</p>",
               "childParamsGroups": [
@@ -81636,7 +81592,7 @@
                   "isRequired": true
                 },
                 {
-                  "type": "object",
+                  "type": "object or null",
                   "name": "user",
                   "description": "<p>A GitHub user.</p>",
                   "isRequired": true,
@@ -81877,7 +81833,7 @@
                   ]
                 },
                 {
-                  "type": "object",
+                  "type": "object or null",
                   "name": "pin",
                   "description": "<p>Context around who pinned an issue comment and when it was pinned.</p>",
                   "childParamsGroups": [
@@ -81888,7 +81844,7 @@
                       "isRequired": true
                     },
                     {
-                      "type": "object",
+                      "type": "object or null",
                       "name": "pinned_by",
                       "description": "<p>A GitHub user.</p>",
                       "isRequired": true,
@@ -83549,7 +83505,7 @@
                   "isRequired": true
                 },
                 {
-                  "type": "object",
+                  "type": "object or null",
                   "name": "pinned_comment",
                   "description": "<p>Comments provide a way for people to collaborate on an issue.</p>",
                   "childParamsGroups": [
@@ -83593,7 +83549,7 @@
                       "isRequired": true
                     },
                     {
-                      "type": "object",
+                      "type": "object or null",
                       "name": "user",
                       "description": "<p>A GitHub user.</p>",
                       "isRequired": true,
@@ -83834,7 +83790,7 @@
                       ]
                     },
                     {
-                      "type": "object",
+                      "type": "object or null",
                       "name": "pin",
                       "description": "<p>Context around who pinned an issue comment and when it was pinned.</p>",
                       "childParamsGroups": [
@@ -83845,7 +83801,7 @@
                           "isRequired": true
                         },
                         {
-                          "type": "object",
+                          "type": "object or null",
                           "name": "pinned_by",
                           "description": "<p>A GitHub user.</p>",
                           "isRequired": true,
@@ -84602,12 +84558,6 @@
                     "all",
                     "collaborators_only"
                   ]
-                },
-                {
-                  "type": "boolean",
-                  "name": "has_commit_comments",
-                  "description": "<p>Whether commit comments are enabled.</p>",
-                  "default": true
                 },
                 {
                   "type": "string or null",
@@ -86230,7 +86180,7 @@
               "isRequired": true
             },
             {
-              "type": "object",
+              "type": "object or null",
               "name": "pinned_comment",
               "description": "<p>Comments provide a way for people to collaborate on an issue.</p>",
               "childParamsGroups": [
@@ -86274,7 +86224,7 @@
                   "isRequired": true
                 },
                 {
-                  "type": "object",
+                  "type": "object or null",
                   "name": "user",
                   "description": "<p>A GitHub user.</p>",
                   "isRequired": true,
@@ -86515,7 +86465,7 @@
                   ]
                 },
                 {
-                  "type": "object",
+                  "type": "object or null",
                   "name": "pin",
                   "description": "<p>Context around who pinned an issue comment and when it was pinned.</p>",
                   "childParamsGroups": [
@@ -86526,7 +86476,7 @@
                       "isRequired": true
                     },
                     {
-                      "type": "object",
+                      "type": "object or null",
                       "name": "pinned_by",
                       "description": "<p>A GitHub user.</p>",
                       "isRequired": true,
@@ -88319,7 +88269,7 @@
               "isRequired": true
             },
             {
-              "type": "object",
+              "type": "object or null",
               "name": "pinned_comment",
               "description": "<p>Comments provide a way for people to collaborate on an issue.</p>",
               "childParamsGroups": [
@@ -88363,7 +88313,7 @@
                   "isRequired": true
                 },
                 {
-                  "type": "object",
+                  "type": "object or null",
                   "name": "user",
                   "description": "<p>A GitHub user.</p>",
                   "isRequired": true,
@@ -88604,7 +88554,7 @@
                   ]
                 },
                 {
-                  "type": "object",
+                  "type": "object or null",
                   "name": "pin",
                   "description": "<p>Context around who pinned an issue comment and when it was pinned.</p>",
                   "childParamsGroups": [
@@ -88615,7 +88565,7 @@
                       "isRequired": true
                     },
                     {
-                      "type": "object",
+                      "type": "object or null",
                       "name": "pinned_by",
                       "description": "<p>A GitHub user.</p>",
                       "isRequired": true,
@@ -90284,7 +90234,7 @@
               "isRequired": true
             },
             {
-              "type": "object",
+              "type": "object or null",
               "name": "pinned_comment",
               "description": "<p>Comments provide a way for people to collaborate on an issue.</p>",
               "childParamsGroups": [
@@ -90328,7 +90278,7 @@
                   "isRequired": true
                 },
                 {
-                  "type": "object",
+                  "type": "object or null",
                   "name": "user",
                   "description": "<p>A GitHub user.</p>",
                   "isRequired": true,
@@ -90569,7 +90519,7 @@
                   ]
                 },
                 {
-                  "type": "object",
+                  "type": "object or null",
                   "name": "pin",
                   "description": "<p>Context around who pinned an issue comment and when it was pinned.</p>",
                   "childParamsGroups": [
@@ -90580,7 +90530,7 @@
                       "isRequired": true
                     },
                     {
-                      "type": "object",
+                      "type": "object or null",
                       "name": "pinned_by",
                       "description": "<p>A GitHub user.</p>",
                       "isRequired": true,
@@ -92255,7 +92205,7 @@
               "isRequired": true
             },
             {
-              "type": "object",
+              "type": "object or null",
               "name": "pinned_comment",
               "description": "<p>Comments provide a way for people to collaborate on an issue.</p>",
               "childParamsGroups": [
@@ -92299,7 +92249,7 @@
                   "isRequired": true
                 },
                 {
-                  "type": "object",
+                  "type": "object or null",
                   "name": "user",
                   "description": "<p>A GitHub user.</p>",
                   "isRequired": true,
@@ -92540,7 +92490,7 @@
                   ]
                 },
                 {
-                  "type": "object",
+                  "type": "object or null",
                   "name": "pin",
                   "description": "<p>Context around who pinned an issue comment and when it was pinned.</p>",
                   "childParamsGroups": [
@@ -92551,7 +92501,7 @@
                       "isRequired": true
                     },
                     {
-                      "type": "object",
+                      "type": "object or null",
                       "name": "pinned_by",
                       "description": "<p>A GitHub user.</p>",
                       "isRequired": true,
@@ -94216,7 +94166,7 @@
               "isRequired": true
             },
             {
-              "type": "object",
+              "type": "object or null",
               "name": "pinned_comment",
               "description": "<p>Comments provide a way for people to collaborate on an issue.</p>",
               "childParamsGroups": [
@@ -94260,7 +94210,7 @@
                   "isRequired": true
                 },
                 {
-                  "type": "object",
+                  "type": "object or null",
                   "name": "user",
                   "description": "<p>A GitHub user.</p>",
                   "isRequired": true,
@@ -94501,7 +94451,7 @@
                   ]
                 },
                 {
-                  "type": "object",
+                  "type": "object or null",
                   "name": "pin",
                   "description": "<p>Context around who pinned an issue comment and when it was pinned.</p>",
                   "childParamsGroups": [
@@ -94512,7 +94462,7 @@
                       "isRequired": true
                     },
                     {
-                      "type": "object",
+                      "type": "object or null",
                       "name": "pinned_by",
                       "description": "<p>A GitHub user.</p>",
                       "isRequired": true,
@@ -96936,7 +96886,7 @@
           "childParamsGroups": []
         },
         {
-          "type": "object",
+          "type": "object or null",
           "name": "repository",
           "description": "<p>The repository on GitHub where the event occurred. Webhook payloads contain the <code>repository</code> property\nwhen the event occurs from activity in a repository.</p>",
           "childParamsGroups": []
@@ -104305,7 +104255,7 @@
           ]
         },
         {
-          "type": "object",
+          "type": "object or null",
           "name": "repository",
           "description": "<p>The repository on GitHub where the event occurred. Webhook payloads contain the <code>repository</code> property\nwhen the event occurs from activity in a repository.</p>",
           "childParamsGroups": []
@@ -105655,7 +105605,7 @@
           ]
         },
         {
-          "type": "object",
+          "type": "object or null",
           "name": "repository",
           "description": "<p>The repository on GitHub where the event occurred. Webhook payloads contain the <code>repository</code> property\nwhen the event occurs from activity in a repository.</p>",
           "childParamsGroups": []
@@ -106443,7 +106393,7 @@
           ]
         },
         {
-          "type": "object",
+          "type": "object or null",
           "name": "repository",
           "description": "<p>The repository on GitHub where the event occurred. Webhook payloads contain the <code>repository</code> property\nwhen the event occurs from activity in a repository.</p>",
           "childParamsGroups": []
@@ -107087,7 +107037,7 @@
               "isRequired": true
             },
             {
-              "type": "object",
+              "type": "object or null",
               "name": "deleted_by",
               "description": "<p>A GitHub user.</p>",
               "isRequired": true,
@@ -107232,7 +107182,7 @@
               ]
             },
             {
-              "type": "object",
+              "type": "object or null",
               "name": "latest_status_update",
               "description": "<p>An status update belonging to a project</p>",
               "childParamsGroups": [
@@ -107823,7 +107773,7 @@
               "isRequired": true
             },
             {
-              "type": "object",
+              "type": "object or null",
               "name": "deleted_by",
               "description": "<p>A GitHub user.</p>",
               "isRequired": true,
@@ -107968,7 +107918,7 @@
               ]
             },
             {
-              "type": "object",
+              "type": "object or null",
               "name": "latest_status_update",
               "description": "<p>An status update belonging to a project</p>",
               "childParamsGroups": [
@@ -108559,7 +108509,7 @@
               "isRequired": true
             },
             {
-              "type": "object",
+              "type": "object or null",
               "name": "deleted_by",
               "description": "<p>A GitHub user.</p>",
               "isRequired": true,
@@ -108704,7 +108654,7 @@
               ]
             },
             {
-              "type": "object",
+              "type": "object or null",
               "name": "latest_status_update",
               "description": "<p>An status update belonging to a project</p>",
               "childParamsGroups": [
@@ -109371,7 +109321,7 @@
               "isRequired": true
             },
             {
-              "type": "object",
+              "type": "object or null",
               "name": "deleted_by",
               "description": "<p>A GitHub user.</p>",
               "isRequired": true,
@@ -109516,7 +109466,7 @@
               ]
             },
             {
-              "type": "object",
+              "type": "object or null",
               "name": "latest_status_update",
               "description": "<p>An status update belonging to a project</p>",
               "childParamsGroups": [
@@ -110107,7 +110057,7 @@
               "isRequired": true
             },
             {
-              "type": "object",
+              "type": "object or null",
               "name": "deleted_by",
               "description": "<p>A GitHub user.</p>",
               "isRequired": true,
@@ -110252,7 +110202,7 @@
               ]
             },
             {
-              "type": "object",
+              "type": "object or null",
               "name": "latest_status_update",
               "description": "<p>An status update belonging to a project</p>",
               "childParamsGroups": [
@@ -113245,12 +113195,6 @@
                       ]
                     },
                     {
-                      "type": "boolean",
-                      "name": "has_commit_comments",
-                      "description": "<p>Whether commit comments are enabled.</p>",
-                      "default": true
-                    },
-                    {
                       "type": "string or null",
                       "name": "homepage",
                       "description": "",
@@ -114256,12 +114200,6 @@
                         "all",
                         "collaborators_only"
                       ]
-                    },
-                    {
-                      "type": "boolean",
-                      "name": "has_commit_comments",
-                      "description": "<p>Whether commit comments are enabled.</p>",
-                      "default": true
                     },
                     {
                       "type": "string or null",
@@ -116517,12 +116455,6 @@
                     },
                     {
                       "type": "boolean",
-                      "name": "has_commit_comments",
-                      "description": "<p>Whether commit comments are enabled.</p>",
-                      "default": true
-                    },
-                    {
-                      "type": "boolean",
                       "name": "has_pages",
                       "description": "",
                       "isRequired": true
@@ -117547,12 +117479,6 @@
                         "all",
                         "collaborators_only"
                       ]
-                    },
-                    {
-                      "type": "boolean",
-                      "name": "has_commit_comments",
-                      "description": "<p>Whether commit comments are enabled.</p>",
-                      "default": true
                     },
                     {
                       "type": "string or null",
@@ -119832,12 +119758,6 @@
                       ]
                     },
                     {
-                      "type": "boolean",
-                      "name": "has_commit_comments",
-                      "description": "<p>Whether commit comments are enabled.</p>",
-                      "default": true
-                    },
-                    {
                       "type": "string or null",
                       "name": "homepage",
                       "description": "",
@@ -120843,12 +120763,6 @@
                         "all",
                         "collaborators_only"
                       ]
-                    },
-                    {
-                      "type": "boolean",
-                      "name": "has_commit_comments",
-                      "description": "<p>Whether commit comments are enabled.</p>",
-                      "default": true
                     },
                     {
                       "type": "string or null",
@@ -122691,7 +122605,7 @@
               ]
             },
             {
-              "type": "object",
+              "type": "object or null",
               "name": "milestone",
               "description": "<p>A collection of related issues and pull requests.</p>",
               "isRequired": true,
@@ -122756,7 +122670,7 @@
                   "isRequired": true
                 },
                 {
-                  "type": "object",
+                  "type": "object or null",
                   "name": "creator",
                   "description": "<p>A GitHub user.</p>",
                   "isRequired": true,
@@ -122965,7 +122879,7 @@
               "isRequired": true
             },
             {
-              "type": "object",
+              "type": "object or null",
               "name": "assignee",
               "description": "<p>A GitHub user.</p>",
               "isRequired": true,
@@ -123521,7 +123435,7 @@
                       "isRequired": true
                     },
                     {
-                      "type": "object",
+                      "type": "object or null",
                       "name": "license",
                       "description": "<p>License Simple</p>",
                       "isRequired": true,
@@ -124130,12 +124044,6 @@
                         "all",
                         "collaborators_only"
                       ]
-                    },
-                    {
-                      "type": "boolean",
-                      "name": "has_commit_comments",
-                      "description": "<p>Whether commit comments are enabled.</p>",
-                      "default": true
                     },
                     {
                       "type": "boolean",
@@ -124509,7 +124417,7 @@
                       "isRequired": true
                     },
                     {
-                      "type": "object",
+                      "type": "object or null",
                       "name": "license",
                       "description": "<p>License Simple</p>",
                       "isRequired": true,
@@ -125118,12 +125026,6 @@
                         "all",
                         "collaborators_only"
                       ]
-                    },
-                    {
-                      "type": "boolean",
-                      "name": "has_commit_comments",
-                      "description": "<p>Whether commit comments are enabled.</p>",
-                      "default": true
                     },
                     {
                       "type": "boolean",
@@ -125780,7 +125682,7 @@
               "isRequired": true
             },
             {
-              "type": "object",
+              "type": "object or null",
               "name": "merged_by",
               "description": "<p>A GitHub user.</p>",
               "isRequired": true,
@@ -126380,7 +126282,7 @@
               ]
             },
             {
-              "type": "object",
+              "type": "object or null",
               "name": "milestone",
               "description": "<p>A collection of related issues and pull requests.</p>",
               "isRequired": true,
@@ -126445,7 +126347,7 @@
                   "isRequired": true
                 },
                 {
-                  "type": "object",
+                  "type": "object or null",
                   "name": "creator",
                   "description": "<p>A GitHub user.</p>",
                   "isRequired": true,
@@ -126654,7 +126556,7 @@
               "isRequired": true
             },
             {
-              "type": "object",
+              "type": "object or null",
               "name": "assignee",
               "description": "<p>A GitHub user.</p>",
               "isRequired": true,
@@ -127210,7 +127112,7 @@
                       "isRequired": true
                     },
                     {
-                      "type": "object",
+                      "type": "object or null",
                       "name": "license",
                       "description": "<p>License Simple</p>",
                       "isRequired": true,
@@ -127819,12 +127721,6 @@
                         "all",
                         "collaborators_only"
                       ]
-                    },
-                    {
-                      "type": "boolean",
-                      "name": "has_commit_comments",
-                      "description": "<p>Whether commit comments are enabled.</p>",
-                      "default": true
                     },
                     {
                       "type": "boolean",
@@ -128198,7 +128094,7 @@
                       "isRequired": true
                     },
                     {
-                      "type": "object",
+                      "type": "object or null",
                       "name": "license",
                       "description": "<p>License Simple</p>",
                       "isRequired": true,
@@ -128807,12 +128703,6 @@
                         "all",
                         "collaborators_only"
                       ]
-                    },
-                    {
-                      "type": "boolean",
-                      "name": "has_commit_comments",
-                      "description": "<p>Whether commit comments are enabled.</p>",
-                      "default": true
                     },
                     {
                       "type": "boolean",
@@ -129469,7 +129359,7 @@
               "isRequired": true
             },
             {
-              "type": "object",
+              "type": "object or null",
               "name": "merged_by",
               "description": "<p>A GitHub user.</p>",
               "isRequired": true,
@@ -129817,7 +129707,7 @@
               "isRequired": true
             },
             {
-              "type": "object",
+              "type": "object or null",
               "name": "creator",
               "description": "<p>A GitHub user.</p>",
               "isRequired": true,
@@ -130737,12 +130627,6 @@
                         "all",
                         "collaborators_only"
                       ]
-                    },
-                    {
-                      "type": "boolean",
-                      "name": "has_commit_comments",
-                      "description": "<p>Whether commit comments are enabled.</p>",
-                      "default": true
                     },
                     {
                       "type": "string or null",
@@ -131750,12 +131634,6 @@
                         "all",
                         "collaborators_only"
                       ]
-                    },
-                    {
-                      "type": "boolean",
-                      "name": "has_commit_comments",
-                      "description": "<p>Whether commit comments are enabled.</p>",
-                      "default": true
                     },
                     {
                       "type": "string or null",
@@ -133662,7 +133540,7 @@
               ]
             },
             {
-              "type": "object",
+              "type": "object or null",
               "name": "milestone",
               "description": "<p>A collection of related issues and pull requests.</p>",
               "isRequired": true,
@@ -133727,7 +133605,7 @@
                   "isRequired": true
                 },
                 {
-                  "type": "object",
+                  "type": "object or null",
                   "name": "creator",
                   "description": "<p>A GitHub user.</p>",
                   "isRequired": true,
@@ -133936,7 +133814,7 @@
               "isRequired": true
             },
             {
-              "type": "object",
+              "type": "object or null",
               "name": "assignee",
               "description": "<p>A GitHub user.</p>",
               "isRequired": true,
@@ -134492,7 +134370,7 @@
                       "isRequired": true
                     },
                     {
-                      "type": "object",
+                      "type": "object or null",
                       "name": "license",
                       "description": "<p>License Simple</p>",
                       "isRequired": true,
@@ -135101,12 +134979,6 @@
                         "all",
                         "collaborators_only"
                       ]
-                    },
-                    {
-                      "type": "boolean",
-                      "name": "has_commit_comments",
-                      "description": "<p>Whether commit comments are enabled.</p>",
-                      "default": true
                     },
                     {
                       "type": "boolean",
@@ -135480,7 +135352,7 @@
                       "isRequired": true
                     },
                     {
-                      "type": "object",
+                      "type": "object or null",
                       "name": "license",
                       "description": "<p>License Simple</p>",
                       "isRequired": true,
@@ -136089,12 +135961,6 @@
                         "all",
                         "collaborators_only"
                       ]
-                    },
-                    {
-                      "type": "boolean",
-                      "name": "has_commit_comments",
-                      "description": "<p>Whether commit comments are enabled.</p>",
-                      "default": true
                     },
                     {
                       "type": "boolean",
@@ -136751,7 +136617,7 @@
               "isRequired": true
             },
             {
-              "type": "object",
+              "type": "object or null",
               "name": "merged_by",
               "description": "<p>A GitHub user.</p>",
               "isRequired": true,
@@ -137837,12 +137703,6 @@
                       ]
                     },
                     {
-                      "type": "boolean",
-                      "name": "has_commit_comments",
-                      "description": "<p>Whether commit comments are enabled.</p>",
-                      "default": true
-                    },
-                    {
                       "type": "string or null",
                       "name": "homepage",
                       "description": "",
@@ -138848,12 +138708,6 @@
                         "all",
                         "collaborators_only"
                       ]
-                    },
-                    {
-                      "type": "boolean",
-                      "name": "has_commit_comments",
-                      "description": "<p>Whether commit comments are enabled.</p>",
-                      "default": true
                     },
                     {
                       "type": "string or null",
@@ -141129,12 +140983,6 @@
                       ]
                     },
                     {
-                      "type": "boolean",
-                      "name": "has_commit_comments",
-                      "description": "<p>Whether commit comments are enabled.</p>",
-                      "default": true
-                    },
-                    {
                       "type": "string or null",
                       "name": "homepage",
                       "description": "",
@@ -142140,12 +141988,6 @@
                         "all",
                         "collaborators_only"
                       ]
-                    },
-                    {
-                      "type": "boolean",
-                      "name": "has_commit_comments",
-                      "description": "<p>Whether commit comments are enabled.</p>",
-                      "default": true
                     },
                     {
                       "type": "string or null",
@@ -143731,7 +143573,7 @@
               "isRequired": true
             },
             {
-              "type": "object",
+              "type": "object or null",
               "name": "creator",
               "description": "<p>A GitHub user.</p>",
               "isRequired": true,
@@ -144651,12 +144493,6 @@
                         "all",
                         "collaborators_only"
                       ]
-                    },
-                    {
-                      "type": "boolean",
-                      "name": "has_commit_comments",
-                      "description": "<p>Whether commit comments are enabled.</p>",
-                      "default": true
                     },
                     {
                       "type": "string or null",
@@ -145664,12 +145500,6 @@
                         "all",
                         "collaborators_only"
                       ]
-                    },
-                    {
-                      "type": "boolean",
-                      "name": "has_commit_comments",
-                      "description": "<p>Whether commit comments are enabled.</p>",
-                      "default": true
                     },
                     {
                       "type": "string or null",
@@ -147507,7 +147337,7 @@
               ]
             },
             {
-              "type": "object",
+              "type": "object or null",
               "name": "milestone",
               "description": "<p>A collection of related issues and pull requests.</p>",
               "isRequired": true,
@@ -147572,7 +147402,7 @@
                   "isRequired": true
                 },
                 {
-                  "type": "object",
+                  "type": "object or null",
                   "name": "creator",
                   "description": "<p>A GitHub user.</p>",
                   "isRequired": true,
@@ -147781,7 +147611,7 @@
               "isRequired": true
             },
             {
-              "type": "object",
+              "type": "object or null",
               "name": "assignee",
               "description": "<p>A GitHub user.</p>",
               "isRequired": true,
@@ -148337,7 +148167,7 @@
                       "isRequired": true
                     },
                     {
-                      "type": "object",
+                      "type": "object or null",
                       "name": "license",
                       "description": "<p>License Simple</p>",
                       "isRequired": true,
@@ -148946,12 +148776,6 @@
                         "all",
                         "collaborators_only"
                       ]
-                    },
-                    {
-                      "type": "boolean",
-                      "name": "has_commit_comments",
-                      "description": "<p>Whether commit comments are enabled.</p>",
-                      "default": true
                     },
                     {
                       "type": "boolean",
@@ -149325,7 +149149,7 @@
                       "isRequired": true
                     },
                     {
-                      "type": "object",
+                      "type": "object or null",
                       "name": "license",
                       "description": "<p>License Simple</p>",
                       "isRequired": true,
@@ -149934,12 +149758,6 @@
                         "all",
                         "collaborators_only"
                       ]
-                    },
-                    {
-                      "type": "boolean",
-                      "name": "has_commit_comments",
-                      "description": "<p>Whether commit comments are enabled.</p>",
-                      "default": true
                     },
                     {
                       "type": "boolean",
@@ -150596,7 +150414,7 @@
               "isRequired": true
             },
             {
-              "type": "object",
+              "type": "object or null",
               "name": "merged_by",
               "description": "<p>A GitHub user.</p>",
               "isRequired": true,
@@ -151196,7 +151014,7 @@
               ]
             },
             {
-              "type": "object",
+              "type": "object or null",
               "name": "milestone",
               "description": "<p>A collection of related issues and pull requests.</p>",
               "isRequired": true,
@@ -151261,7 +151079,7 @@
                   "isRequired": true
                 },
                 {
-                  "type": "object",
+                  "type": "object or null",
                   "name": "creator",
                   "description": "<p>A GitHub user.</p>",
                   "isRequired": true,
@@ -151470,7 +151288,7 @@
               "isRequired": true
             },
             {
-              "type": "object",
+              "type": "object or null",
               "name": "assignee",
               "description": "<p>A GitHub user.</p>",
               "isRequired": true,
@@ -152026,7 +151844,7 @@
                       "isRequired": true
                     },
                     {
-                      "type": "object",
+                      "type": "object or null",
                       "name": "license",
                       "description": "<p>License Simple</p>",
                       "isRequired": true,
@@ -152635,12 +152453,6 @@
                         "all",
                         "collaborators_only"
                       ]
-                    },
-                    {
-                      "type": "boolean",
-                      "name": "has_commit_comments",
-                      "description": "<p>Whether commit comments are enabled.</p>",
-                      "default": true
                     },
                     {
                       "type": "boolean",
@@ -153014,7 +152826,7 @@
                       "isRequired": true
                     },
                     {
-                      "type": "object",
+                      "type": "object or null",
                       "name": "license",
                       "description": "<p>License Simple</p>",
                       "isRequired": true,
@@ -153623,12 +153435,6 @@
                         "all",
                         "collaborators_only"
                       ]
-                    },
-                    {
-                      "type": "boolean",
-                      "name": "has_commit_comments",
-                      "description": "<p>Whether commit comments are enabled.</p>",
-                      "default": true
                     },
                     {
                       "type": "boolean",
@@ -154285,7 +154091,7 @@
               "isRequired": true
             },
             {
-              "type": "object",
+              "type": "object or null",
               "name": "merged_by",
               "description": "<p>A GitHub user.</p>",
               "isRequired": true,
@@ -154885,7 +154691,7 @@
               ]
             },
             {
-              "type": "object",
+              "type": "object or null",
               "name": "milestone",
               "description": "<p>A collection of related issues and pull requests.</p>",
               "isRequired": true,
@@ -154950,7 +154756,7 @@
                   "isRequired": true
                 },
                 {
-                  "type": "object",
+                  "type": "object or null",
                   "name": "creator",
                   "description": "<p>A GitHub user.</p>",
                   "isRequired": true,
@@ -155159,7 +154965,7 @@
               "isRequired": true
             },
             {
-              "type": "object",
+              "type": "object or null",
               "name": "assignee",
               "description": "<p>A GitHub user.</p>",
               "isRequired": true,
@@ -155715,7 +155521,7 @@
                       "isRequired": true
                     },
                     {
-                      "type": "object",
+                      "type": "object or null",
                       "name": "license",
                       "description": "<p>License Simple</p>",
                       "isRequired": true,
@@ -156324,12 +156130,6 @@
                         "all",
                         "collaborators_only"
                       ]
-                    },
-                    {
-                      "type": "boolean",
-                      "name": "has_commit_comments",
-                      "description": "<p>Whether commit comments are enabled.</p>",
-                      "default": true
                     },
                     {
                       "type": "boolean",
@@ -156703,7 +156503,7 @@
                       "isRequired": true
                     },
                     {
-                      "type": "object",
+                      "type": "object or null",
                       "name": "license",
                       "description": "<p>License Simple</p>",
                       "isRequired": true,
@@ -157312,12 +157112,6 @@
                         "all",
                         "collaborators_only"
                       ]
-                    },
-                    {
-                      "type": "boolean",
-                      "name": "has_commit_comments",
-                      "description": "<p>Whether commit comments are enabled.</p>",
-                      "default": true
                     },
                     {
                       "type": "boolean",
@@ -157974,7 +157768,7 @@
               "isRequired": true
             },
             {
-              "type": "object",
+              "type": "object or null",
               "name": "merged_by",
               "description": "<p>A GitHub user.</p>",
               "isRequired": true,
@@ -159011,12 +158805,6 @@
                       ]
                     },
                     {
-                      "type": "boolean",
-                      "name": "has_commit_comments",
-                      "description": "<p>Whether commit comments are enabled.</p>",
-                      "default": true
-                    },
-                    {
                       "type": "string or null",
                       "name": "homepage",
                       "description": "",
@@ -160022,12 +159810,6 @@
                         "all",
                         "collaborators_only"
                       ]
-                    },
-                    {
-                      "type": "boolean",
-                      "name": "has_commit_comments",
-                      "description": "<p>Whether commit comments are enabled.</p>",
-                      "default": true
                     },
                     {
                       "type": "string or null",
@@ -162597,12 +162379,6 @@
                       ]
                     },
                     {
-                      "type": "boolean",
-                      "name": "has_commit_comments",
-                      "description": "<p>Whether commit comments are enabled.</p>",
-                      "default": true
-                    },
-                    {
                       "type": "string or null",
                       "name": "homepage",
                       "description": "",
@@ -163608,12 +163384,6 @@
                         "all",
                         "collaborators_only"
                       ]
-                    },
-                    {
-                      "type": "boolean",
-                      "name": "has_commit_comments",
-                      "description": "<p>Whether commit comments are enabled.</p>",
-                      "default": true
                     },
                     {
                       "type": "string or null",
@@ -166180,12 +165950,6 @@
                       ]
                     },
                     {
-                      "type": "boolean",
-                      "name": "has_commit_comments",
-                      "description": "<p>Whether commit comments are enabled.</p>",
-                      "default": true
-                    },
-                    {
                       "type": "string or null",
                       "name": "homepage",
                       "description": "",
@@ -167191,12 +166955,6 @@
                         "all",
                         "collaborators_only"
                       ]
-                    },
-                    {
-                      "type": "boolean",
-                      "name": "has_commit_comments",
-                      "description": "<p>Whether commit comments are enabled.</p>",
-                      "default": true
                     },
                     {
                       "type": "string or null",
@@ -169597,12 +169355,6 @@
                       ]
                     },
                     {
-                      "type": "boolean",
-                      "name": "has_commit_comments",
-                      "description": "<p>Whether commit comments are enabled.</p>",
-                      "default": true
-                    },
-                    {
                       "type": "string or null",
                       "name": "homepage",
                       "description": "",
@@ -170608,12 +170360,6 @@
                         "all",
                         "collaborators_only"
                       ]
-                    },
-                    {
-                      "type": "boolean",
-                      "name": "has_commit_comments",
-                      "description": "<p>Whether commit comments are enabled.</p>",
-                      "default": true
                     },
                     {
                       "type": "string or null",
@@ -172938,12 +172684,6 @@
                       ]
                     },
                     {
-                      "type": "boolean",
-                      "name": "has_commit_comments",
-                      "description": "<p>Whether commit comments are enabled.</p>",
-                      "default": true
-                    },
-                    {
                       "type": "string or null",
                       "name": "homepage",
                       "description": "",
@@ -173949,12 +173689,6 @@
                         "all",
                         "collaborators_only"
                       ]
-                    },
-                    {
-                      "type": "boolean",
-                      "name": "has_commit_comments",
-                      "description": "<p>Whether commit comments are enabled.</p>",
-                      "default": true
                     },
                     {
                       "type": "string or null",
@@ -176229,12 +175963,6 @@
                       ]
                     },
                     {
-                      "type": "boolean",
-                      "name": "has_commit_comments",
-                      "description": "<p>Whether commit comments are enabled.</p>",
-                      "default": true
-                    },
-                    {
                       "type": "string or null",
                       "name": "homepage",
                       "description": "",
@@ -177240,12 +176968,6 @@
                         "all",
                         "collaborators_only"
                       ]
-                    },
-                    {
-                      "type": "boolean",
-                      "name": "has_commit_comments",
-                      "description": "<p>Whether commit comments are enabled.</p>",
-                      "default": true
                     },
                     {
                       "type": "string or null",
@@ -179516,12 +179238,6 @@
                       ]
                     },
                     {
-                      "type": "boolean",
-                      "name": "has_commit_comments",
-                      "description": "<p>Whether commit comments are enabled.</p>",
-                      "default": true
-                    },
-                    {
                       "type": "string or null",
                       "name": "homepage",
                       "description": "",
@@ -180505,12 +180221,6 @@
                         "all",
                         "collaborators_only"
                       ]
-                    },
-                    {
-                      "type": "boolean",
-                      "name": "has_commit_comments",
-                      "description": "<p>Whether commit comments are enabled.</p>",
-                      "default": true
                     },
                     {
                       "type": "string or null",
@@ -182626,12 +182336,6 @@
                       ]
                     },
                     {
-                      "type": "boolean",
-                      "name": "has_commit_comments",
-                      "description": "<p>Whether commit comments are enabled.</p>",
-                      "default": true
-                    },
-                    {
                       "type": "string or null",
                       "name": "homepage",
                       "description": "",
@@ -183616,12 +183320,6 @@
                         "all",
                         "collaborators_only"
                       ]
-                    },
-                    {
-                      "type": "boolean",
-                      "name": "has_commit_comments",
-                      "description": "<p>Whether commit comments are enabled.</p>",
-                      "default": true
                     },
                     {
                       "type": "string or null",
@@ -185757,12 +185455,6 @@
                       ]
                     },
                     {
-                      "type": "boolean",
-                      "name": "has_commit_comments",
-                      "description": "<p>Whether commit comments are enabled.</p>",
-                      "default": true
-                    },
-                    {
                       "type": "string or null",
                       "name": "homepage",
                       "description": "",
@@ -186747,12 +186439,6 @@
                         "all",
                         "collaborators_only"
                       ]
-                    },
-                    {
-                      "type": "boolean",
-                      "name": "has_commit_comments",
-                      "description": "<p>Whether commit comments are enabled.</p>",
-                      "default": true
                     },
                     {
                       "type": "string or null",
@@ -188865,12 +188551,6 @@
                       ]
                     },
                     {
-                      "type": "boolean",
-                      "name": "has_commit_comments",
-                      "description": "<p>Whether commit comments are enabled.</p>",
-                      "default": true
-                    },
-                    {
                       "type": "string or null",
                       "name": "homepage",
                       "description": "",
@@ -189856,12 +189536,6 @@
                         "all",
                         "collaborators_only"
                       ]
-                    },
-                    {
-                      "type": "boolean",
-                      "name": "has_commit_comments",
-                      "description": "<p>Whether commit comments are enabled.</p>",
-                      "default": true
                     },
                     {
                       "type": "string or null",
@@ -195427,12 +195101,6 @@
                       ]
                     },
                     {
-                      "type": "boolean",
-                      "name": "has_commit_comments",
-                      "description": "<p>Whether commit comments are enabled.</p>",
-                      "default": true
-                    },
-                    {
                       "type": "string or null",
                       "name": "homepage",
                       "description": "",
@@ -196418,12 +196086,6 @@
                         "all",
                         "collaborators_only"
                       ]
-                    },
-                    {
-                      "type": "boolean",
-                      "name": "has_commit_comments",
-                      "description": "<p>Whether commit comments are enabled.</p>",
-                      "default": true
                     },
                     {
                       "type": "string or null",
@@ -198773,12 +198435,6 @@
                       ]
                     },
                     {
-                      "type": "boolean",
-                      "name": "has_commit_comments",
-                      "description": "<p>Whether commit comments are enabled.</p>",
-                      "default": true
-                    },
-                    {
                       "type": "string or null",
                       "name": "homepage",
                       "description": "",
@@ -199720,12 +199376,6 @@
                         "all",
                         "collaborators_only"
                       ]
-                    },
-                    {
-                      "type": "boolean",
-                      "name": "has_commit_comments",
-                      "description": "<p>Whether commit comments are enabled.</p>",
-                      "default": true
                     },
                     {
                       "type": "string or null",
@@ -202226,12 +201876,6 @@
                       ]
                     },
                     {
-                      "type": "boolean",
-                      "name": "has_commit_comments",
-                      "description": "<p>Whether commit comments are enabled.</p>",
-                      "default": true
-                    },
-                    {
                       "type": "string or null",
                       "name": "homepage",
                       "description": "",
@@ -203173,12 +202817,6 @@
                         "all",
                         "collaborators_only"
                       ]
-                    },
-                    {
-                      "type": "boolean",
-                      "name": "has_commit_comments",
-                      "description": "<p>Whether commit comments are enabled.</p>",
-                      "default": true
                     },
                     {
                       "type": "string or null",
@@ -218322,7 +217960,7 @@
               "description": "<p>The time that the alert was resolved in ISO 8601 format: <code>YYYY-MM-DDTHH:MM:SSZ</code>.</p>"
             },
             {
-              "type": "object",
+              "type": "object or null",
               "name": "resolved_by",
               "description": "<p>A GitHub user.</p>",
               "childParamsGroups": [
@@ -218487,7 +218125,7 @@
               "description": "<p>Whether push protection was bypassed for the detected secret.</p>"
             },
             {
-              "type": "object",
+              "type": "object or null",
               "name": "push_protection_bypassed_by",
               "description": "<p>A GitHub user.</p>",
               "childParamsGroups": [
@@ -218627,7 +218265,7 @@
               "description": "<p>The time that push protection was bypassed in ISO 8601 format: <code>YYYY-MM-DDTHH:MM:SSZ</code>.</p>"
             },
             {
-              "type": "object",
+              "type": "object or null",
               "name": "push_protection_bypass_request_reviewer",
               "description": "<p>A GitHub user.</p>",
               "childParamsGroups": [
@@ -218893,7 +218531,7 @@
               "description": "<p>The time that the alert was resolved in ISO 8601 format: <code>YYYY-MM-DDTHH:MM:SSZ</code>.</p>"
             },
             {
-              "type": "object",
+              "type": "object or null",
               "name": "resolved_by",
               "description": "<p>A GitHub user.</p>",
               "childParamsGroups": [
@@ -219058,7 +218696,7 @@
               "description": "<p>Whether push protection was bypassed for the detected secret.</p>"
             },
             {
-              "type": "object",
+              "type": "object or null",
               "name": "push_protection_bypassed_by",
               "description": "<p>A GitHub user.</p>",
               "childParamsGroups": [
@@ -219198,7 +218836,7 @@
               "description": "<p>The time that push protection was bypassed in ISO 8601 format: <code>YYYY-MM-DDTHH:MM:SSZ</code>.</p>"
             },
             {
-              "type": "object",
+              "type": "object or null",
               "name": "push_protection_bypass_request_reviewer",
               "description": "<p>A GitHub user.</p>",
               "childParamsGroups": [
@@ -219464,7 +219102,7 @@
               "description": "<p>The time that the alert was resolved in ISO 8601 format: <code>YYYY-MM-DDTHH:MM:SSZ</code>.</p>"
             },
             {
-              "type": "object",
+              "type": "object or null",
               "name": "resolved_by",
               "description": "<p>A GitHub user.</p>",
               "childParamsGroups": [
@@ -219629,7 +219267,7 @@
               "description": "<p>Whether push protection was bypassed for the detected secret.</p>"
             },
             {
-              "type": "object",
+              "type": "object or null",
               "name": "push_protection_bypassed_by",
               "description": "<p>A GitHub user.</p>",
               "childParamsGroups": [
@@ -219769,7 +219407,7 @@
               "description": "<p>The time that push protection was bypassed in ISO 8601 format: <code>YYYY-MM-DDTHH:MM:SSZ</code>.</p>"
             },
             {
-              "type": "object",
+              "type": "object or null",
               "name": "push_protection_bypass_request_reviewer",
               "description": "<p>A GitHub user.</p>",
               "childParamsGroups": [
@@ -220035,7 +219673,7 @@
               "description": "<p>The time that the alert was resolved in ISO 8601 format: <code>YYYY-MM-DDTHH:MM:SSZ</code>.</p>"
             },
             {
-              "type": "object",
+              "type": "object or null",
               "name": "resolved_by",
               "description": "<p>A GitHub user.</p>",
               "childParamsGroups": [
@@ -220200,7 +219838,7 @@
               "description": "<p>Whether push protection was bypassed for the detected secret.</p>"
             },
             {
-              "type": "object",
+              "type": "object or null",
               "name": "push_protection_bypassed_by",
               "description": "<p>A GitHub user.</p>",
               "childParamsGroups": [
@@ -220340,7 +219978,7 @@
               "description": "<p>The time that push protection was bypassed in ISO 8601 format: <code>YYYY-MM-DDTHH:MM:SSZ</code>.</p>"
             },
             {
-              "type": "object",
+              "type": "object or null",
               "name": "push_protection_bypass_request_reviewer",
               "description": "<p>A GitHub user.</p>",
               "childParamsGroups": [
@@ -220607,7 +220245,7 @@
               "description": "<p>The time that the alert was resolved in ISO 8601 format: <code>YYYY-MM-DDTHH:MM:SSZ</code>.</p>"
             },
             {
-              "type": "object",
+              "type": "object or null",
               "name": "resolved_by",
               "description": "<p>A GitHub user.</p>",
               "childParamsGroups": [
@@ -220772,7 +220410,7 @@
               "description": "<p>Whether push protection was bypassed for the detected secret.</p>"
             },
             {
-              "type": "object",
+              "type": "object or null",
               "name": "push_protection_bypassed_by",
               "description": "<p>A GitHub user.</p>",
               "childParamsGroups": [
@@ -220912,7 +220550,7 @@
               "description": "<p>The time that push protection was bypassed in ISO 8601 format: <code>YYYY-MM-DDTHH:MM:SSZ</code>.</p>"
             },
             {
-              "type": "object",
+              "type": "object or null",
               "name": "push_protection_bypass_request_reviewer",
               "description": "<p>A GitHub user.</p>",
               "childParamsGroups": [
@@ -228829,7 +228467,7 @@
               "isRequired": true
             },
             {
-              "type": "object",
+              "type": "object or null",
               "name": "creator",
               "description": "<p>A GitHub user.</p>",
               "isRequired": true,
@@ -229335,7 +228973,7 @@
               "isRequired": true
             },
             {
-              "type": "object",
+              "type": "object or null",
               "name": "creator",
               "description": "<p>A GitHub user.</p>",
               "isRequired": true,
@@ -229835,7 +229473,7 @@
               "isRequired": true
             },
             {
-              "type": "object",
+              "type": "object or null",
               "name": "creator",
               "description": "<p>A GitHub user.</p>",
               "isRequired": true,
@@ -230336,7 +229974,7 @@
               "isRequired": true
             },
             {
-              "type": "object",
+              "type": "object or null",
               "name": "creator",
               "description": "<p>A GitHub user.</p>",
               "isRequired": true,
